@@ -1,1 +1,65 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Beat the Fuhrer</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Beat the Fuhrer</h1>
+	</div>
+	<div class="instructions">
+		<h3>Instructions:</h3>
+		</br>
+		<ol>
+			<li>You will be given a random number at the start of the game.<span>"Target Number"</span></li>
+			<li>There are four attacks below.</li>
+			<ul>
+				<li id="blue">flying kick</li>
+				<li id="green">ray gun</li>
+				<li id="red">jaguar</li>
+				<li id="yellow">chainsaw</li>
+			</ul>
+			<li>By clicking on an attack, you will add a specific amount of points to your total score.</li>
+			<li>You win the game by matching your total score to the "Target Number".</li>
+			<li>You lose the game if your total score goes above the random number.</li>
+			<li>The value of each attack is hidden from you until you click on it.</li>
+			<li>Each time when the game starts, the game will change the values of each attack move.</li>
+		</ol>
+    </div>
+    
+    <div class="image">
+           <img src="https://www.toonpool.com/user/3706/files/an_evil_man_442425.jpg", width="200px. height="200px">
+    </div>
+	<div class="numberToMatch">
+		<h2>Target Number:
+			<span id= "randomNumber"></span>
+		</h2>
+	</div>
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "numberWins"></span>
+			</br>
+			Losses: 
+			<span id= "numberLosses"></span>
+		</h2>
+    </div>
+    
+	<div class="attacks">
+            <img src= "https://thumbs.dreamstime.com/z/flying-kick-17109126.jpg" width="200px" height="200px" id="one">
+            <img src= "https://images-na.ssl-images-amazon.com/images/I/51m%2BPcGq7QL._SY450_.jpg" width="200px" height="200px", id="two">
+		<img src= "https://vignette.wikia.nocookie.net/rickandmorty/images/8/8a/Jaguar_Rick_and_Morty.PNG/revision/latest?cb=20170823021510" width="200px" "height=200px" id="three">
+		<img src= "https://images.homedepot-static.com/productImages/352ab719-8da7-4af3-8c5c-ce4ad6f3dd2d/svn/echo-gas-chainsaws-cs-490-20-64_1000.jpg", width="200px" height="200px" id="four">
+	</div>
+	<div class="userTotal">
+		<h2>Your total score is:
+			<span id="finalTotal"></span>
+		</h2>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/game.js"></script>
+</body>
+</html>

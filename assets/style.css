@@ -1,0 +1,48 @@
+.image {
+    text-align:center;
+}
+.userTotal{
+    text-align: center;
+}
+.winsAndLosses{
+    text-align: center;
+}
+
+.attacks{
+    text-align: center;
+
+}
+
+.header {
+ text-align: center;
+}
+
+.instructions{
+    margin-right:40px;
+}
+
+body {
+    background-image: url("http://wlpapers.com/images/universe-background-1.jpg");
+    color: white;
+}
+
+.numberToMatch {
+text-align: center;
+}
+
+#one{
+    border-style: solid;
+    border-color: white;
+}
+#two {
+    border-style: solid;
+    border-color: white;
+}
+#three {
+    border-style: solid;
+    border-color: white;
+}
+#four{
+    border-style: solid;
+    border-color: white;
+}
